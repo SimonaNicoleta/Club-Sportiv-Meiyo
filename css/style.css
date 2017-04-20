@@ -70,15 +70,52 @@ header {
 article h6 {
 	text-align: center;
 	margin-top: 40px;
+	color: #ee6e73;
+	font-weight: 700;
 }
 
 article h1 {
+	text-align: center;
+}
+article h4{
 	text-align: center;
 }
 p{
 	text-align: center;
 	/*background-color: pink;*/
 
+}
+.welcome h6 {
+	color: #ee6e73;
+	font-weight: 700;
+}
+.promo-text{
+	margin-top: 80px;
+	margin-left: 80px;
+}
+.btn-flat{
+	background-color: #ee6e73!important;
+	color: #fff !important;
+}
+.training-program h6 {
+	color: #ee6e73;
+	font-weight: 700;
+}
+.our-results h6 {
+	color: #ee6e73;
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+.staff-instructors h6 {
+		color: #ee6e73;
+		font-weight: 700;
+}
+.staff-instructors p{
+	font-weight: 700;
+	font-size: 16px;
+}
+.about-us h2 {
+	margin-top: 80px !important;
 }
 footer {
 	background-color: #292929;
@@ -90,5 +127,5 @@ footer p {
 }
 /*.bg-welcome{
 
-	background-image: url("D:\Club Sportiv Meiyo\new- club sportiv\imgs\girl-kick-2.jpg");
+	background-image: url("D:\Club Sportiv Meiyo\new- club sportiv\img\girl-kick-2.jpg");
 }*/
