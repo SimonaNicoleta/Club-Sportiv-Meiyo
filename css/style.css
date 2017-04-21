@@ -126,8 +126,9 @@ footer p {
 	color: white;
 }
 
-.map {
+#map {
 	height: 400px;
+	width: 100%;
 	border: 1px solid #000;
 }
 /*.bg-welcome{
