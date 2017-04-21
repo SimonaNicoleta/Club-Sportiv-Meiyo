@@ -11,7 +11,8 @@ Fii ingenioasa si creeaza tu elemente si culori noi. Si nu uita: always have fun
 	<title>Club Sportiv Meiyo</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -180,12 +181,71 @@ Fii ingenioasa si creeaza tu elemente si culori noi. Si nu uita: always have fun
 	</article>
 
 	<!-- Contine harta google map -->
-	<div id="map">test</div>
+	<div id="map"></div>
 
-	<!-- Contine formatii de contact -->
-	<article></article>
+	<article class="row footer-links">
+		<div class="container">
+			<div class="col s12 m6 l3">
+				<img src="img/Logo-club-meiyo.png" alt="">
+				<p class="short-description">
+					Cateva cuvinte despre Clubul Meyo.
+				</p>
+			</div>
+			<div class="col s12 m6 l3">
+				<h5>Meniu</h5>
+				<ul>
+					<a href="#">
+						<li>Home</li>
+						</a>
+					<a href="#">
+						<li>About</li>
+					</a>
+					<a href="#">
+						<li>Features</li>
+						</a>
+					<a href="#">
+						<li>Programs</li>
+						</a>
+					<a href="#">
+						<li>Schedule</li>
+						</a>
+					<a href="#">
+						<li>Blog</li>
+						</a>
+					<a href="#">
+						<li>Contact</li>
+						</a>
+				</ul>
+			</div>
+			<div class="col s12 m6 l3">
+				<h5>Blog</h5>
+			</div>
+			<div class="col s12 m6 l3">
+				<h5>Program Club</h5>
+				<ul>
+					<li>Aikido</li>
+					<li>Luni: 18:30 - 21:00</li>
+					<li>Miercuri: 18:30 - 21:00</li>
+					<li>Vineri: 18:30 - 21:00</li>
+				</ul>
+				<br>
+				<ul>
+					<li>Kendo</li>
+					<li>Sambata: 11:00 - 13:00</li>
+					<li class="social">
+						<a href="#">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						<a href="#">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+							</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</article>
 	<footer>
-		<p>All rights reserved</p>
+		<p>Toate drepturile rezervate</p>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -199,10 +259,11 @@ Fii ingenioasa si creeaza tu elemente si culori noi. Si nu uita: always have fun
   	</script>
 	<script>
 	      function initMap() {
-		var uluru = {lat: -25.363, lng: 131.044};
+		var uluru = {lat: 44.3066076, lng: 23.8231035};
 		var map = new google.maps.Map(document.getElementById('map'), {
-		  zoom: 4,
-		  center: uluru
+		  zoom: 17,
+		  center: uluru,
+		  scrollwheel: false
 		});
 		var marker = new google.maps.Marker({
 		  position: uluru,
