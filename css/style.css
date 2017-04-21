@@ -62,9 +62,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 header {
 	height: 100px;
+}
+
+h5 {
+	font-family: Raleway;
+	font-weight: 400;
 }
 
 article h6 {
@@ -83,8 +87,8 @@ article h4{
 p{
 	text-align: center;
 	/*background-color: pink;*/
-
 }
+
 .welcome h6 {
 	color: #ee6e73;
 	font-weight: 700;
@@ -118,18 +122,45 @@ p{
 	margin-top: 80px !important;
 }
 footer {
-	background-color: #292929;
+	background-color: #fff;
 }
 footer p {
 	text-align: center;
-	padding: 20px 0;
-	color: white;
+	padding: 30px 0;
+	color: black;
 }
+
+.footer-links {
+	font-weight: 300;
+	padding: 20px 0;
+	text-align: center;
+	line-height: 1.5;
+}
+	.footer-links a {
+		color: #000;
+	}
+		.footer-links a:hover {
+			color: red;
+		}
+
+.short-description {
+	padding-top: 20px;
+}
+
+.social {
+	padding-top: 20px;
+}
+	.social i {
+		padding-left: 10px;
+	}
 
 #map {
 	height: 400px;
 	width: 100%;
-	border: 1px solid #000;
+}
+
+.gm-style-mtc {
+	display: none;
 }
 /*.bg-welcome{
 
