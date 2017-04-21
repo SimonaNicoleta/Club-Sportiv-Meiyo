@@ -126,7 +126,7 @@ footer p {
 	color: white;
 }
 
-map {
+.map {
 	height: 400px;
 	border: 1px solid #000;
 }
