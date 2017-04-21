@@ -4,7 +4,7 @@ http://www.clubulsportivmeiyo.ro/
 http://preview.themeforest.net/item/samurai-karate-school-and-fitness-center/full_screen_preview/19235121
 To use: HTML, CSS, JSS and http://materializecss.com/grid.html
 ===
-<div class="col s12 m3 l3">  </div>
+<divÂ class="col s12 m3 l3">  </div>
 s12 = pe mobile face 12 coloane
 m3 = pe tablete face 3 coloane
 l3 = pe ecrane face 3 coloane
